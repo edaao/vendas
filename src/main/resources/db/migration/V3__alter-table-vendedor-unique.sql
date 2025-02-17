@@ -1,0 +1,3 @@
+alter table vendedor
+MODIFY cpf VARCHAR(11) NOT NULL UNIQUE,
+MODIFY email VARCHAR(50) NOT NULL UNIQUE;
